@@ -15,6 +15,18 @@
             "name": "Debug (Launch)-Hello",
             "request": "launch",
             "mainClass": "Hello"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestNilai",
+            "request": "launch",
+            "mainClass": "TestNilai"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-hello",
+            "request": "launch",
+            "mainClass": "hello"
         }
     ]
 }
