@@ -35,6 +35,13 @@ public class TebakNilai {
         this.result = false;
     }
 
+    /**
+     * mengembalikan hasil permainan.
+     * hasil permainan berupa string, yang menyatakan apakah pemain menang atau kalah.
+     * jika game belum selesai, hasilnya adalah "game sedang berlangsung".
+     * 
+     * contoh: String hasil = game.getResult();
+     */
     public String getResult() {
         String r = "game sedang berlangsung";
         if (this.result == true) {
