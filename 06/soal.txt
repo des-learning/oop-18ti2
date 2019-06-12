@@ -1,0 +1,17 @@
+class Employee {
+    String name;
+    double salary;
+    ...
+}
+
+1. implementasikan constructor Employee yang menginisialisasikan name dan salary;
+2. implementasikan getter untuk name dan salary;
+3. implementasikan method getTakeHomePay yang mengembalikan salary Employee;
+4. salary tidak boleh minus;
+5. name tidak boleh minus;
+6. bentuk class ComissionedEmployee berdasarkan Employee yang memiliki atribut double comission;
+7. implementasikan getter getComission untuk ComissionEmployee
+8. method getTakeHomePay untuk ComissionedEmployee adalah salary + comission;
+9. bentuk interface Taxable yg berisikan method double getTax()
+10. modifikasi Employee untuk mengimplementasi interface Taxable dengan isi getTax()nya adalah 10% dari salary, sesuaikan getTakeHomePay() (take home pay adalah gaji bersih yang diterima oleh Employee)
+11. untuk comissionEmployee yang dikenakan tax adalah salary + comission;
