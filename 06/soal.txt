@@ -8,7 +8,7 @@ class Employee {
 2. implementasikan getter untuk name dan salary;
 3. implementasikan method getTakeHomePay yang mengembalikan salary Employee;
 4. salary tidak boleh minus;
-5. name tidak boleh minus;
+5. name tidak boleh kosong;
 6. bentuk class ComissionedEmployee berdasarkan Employee yang memiliki atribut double comission;
 7. implementasikan getter getComission untuk ComissionEmployee
 8. method getTakeHomePay untuk ComissionedEmployee adalah salary + comission;
