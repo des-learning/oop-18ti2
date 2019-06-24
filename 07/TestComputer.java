@@ -38,5 +38,23 @@ public class TestComputer {
 		System.out.println(
 				myComputer.getSpec()
 		);
+
+		myComputer.addStorage(new SSD(1024));
+
+		expectedSpec = 
+		"CPU: Intel 3.4Ghz 8 core(s)\n" +
+		"===\n" +
+		"Memory: 8GB\n" +
+		"Slot 1: 4GB\n" +
+		"Slot 3: 4GB\n" +
+		"===\n" +
+		"Storage: 1664GB\n" +
+		"SSD: 128GB\n" +
+		"HDD: 512GB\n" +
+		"SSD: 1024GB\n" + 
+		"===\n" + 
+		"PSU: 600watt";
+
+		System.out.println(expectedSpec.equals(myComputer.getSpec()));
 	}
 }
