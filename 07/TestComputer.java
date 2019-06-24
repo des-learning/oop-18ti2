@@ -25,7 +25,7 @@ public class TestComputer {
 		"===\n" +
 		"Memory: 8GB\n" +
 		"Slot 1: 4GB\n" +
-		"Slot 2: 4GB\n" +
+		"Slot 3: 4GB\n" +
 		"===\n" +
 		"Storage: 640GB\n" +
 		"SSD: 128GB\n" +
