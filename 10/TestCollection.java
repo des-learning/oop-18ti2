@@ -14,7 +14,15 @@ public class TestCollection {
 		System.out.println(ns);
 		ns.sort(new NilaiTugasComparator());
 		System.out.println(ns);
-		ns.sort(new NilaiUTSComparator());
+		// anonymous class
+		ns.sort(new Comparator<Nilai>() {
+			public int compare(Nilai n1, Nilai n2) {
+				return (int)(n1.getUTS() - n2.getUTS());
+			}
+		});
+		System.out.println(ns);
+		// anonymous function/lambda
+		ns.sort((Nilai x, Nilai y) -> (int)(x.getUAS() - y.getUAS()));
 		System.out.println(ns);
 	}
 }
@@ -25,8 +33,8 @@ class NilaiTugasComparator implements Comparator<Nilai> {
 	}
 }
 
-class NilaiUTSComparator implements Comparator<Nilai> {
+/*class NilaiUTSComparator implements Comparator<Nilai> {
 	public int compare(Nilai n1, Nilai n2) {
 		return (int)(n1.getUTS() - n2.getUTS());
 	}
-}
+}*/
