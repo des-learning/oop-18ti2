@@ -12,5 +12,5 @@ public class UOM {
 	public String getName() { return name; }
 	public Number getUnit() { return unit; }
 	public Number getRate() { return rate; }
-	public String toString() { return String.format("%s<%.2f>", name, unit.doubleValue() / rate.doubleValue()); }
+	public String toString() { return String.format("%s<%.2f -> %.2f>", name, unit.doubleValue(), unit.doubleValue() / rate.doubleValue()); }
 }

@@ -18,7 +18,7 @@ public class TestUOM {
 		});
 
 		display(uoms);
-		uoms.sort(...);
-		display(uoms);
+//		uoms.sort(...);
+//		display(uoms);
 	}
 }
