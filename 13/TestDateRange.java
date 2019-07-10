@@ -29,17 +29,5 @@ public class TestDateRange {
 				break;
 			}
 		}
-		LocalDate date1 = LocalDate.of(2019, 7, 15);
-
-		if (!date.contains(date1)) {
-			System.out.printf("%s should be inside date range %s\n", date1, date);
-		}
-
-		DateRange date2 = new DateRange(LocalDate.of(2019, 7, 19),
-										LocalDate.of(2019, 7, 22));
-
-		if (!date.overlap(date2)) {
-			System.out.printf("%s should be overlap %s\n", date, date2);
-		}
 	}
 }
