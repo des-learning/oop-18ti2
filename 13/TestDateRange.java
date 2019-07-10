@@ -18,7 +18,7 @@ public class TestDateRange {
 			LocalDate.of(2019, 7, 20),
 		};
 		int index = 0;
-		for (LocalDate d: range) {
+		for (LocalDate d: date) {
 			if (! d.equals(dates[index])) {
 				System.out.printf("should be %s got %s\n", dates[index], d);
 				break;
